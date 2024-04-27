@@ -38,7 +38,7 @@ if selected == "🏡Home":
             Real Estate Organizations, Environmental Management Agencies, Wildlife and Recreational Parks Conservatories as well as Civil and Structual Engineers, Town 
             Planning Engineers and all interested organizations in GIS and Remote Sensing.""")
     st.info("Explore the website more to discover more about my projects and services as well as special promotionals that I will be running.")
-    st.write("Click on the button below to access our Instagram page:")
+    st.info("Click on the button below to access our Instagram page:")
     st.link_button("Mthoe Saps Construction Technologies Instagram Page", "https://www.instagram.com/mthoe_saps_construction_tech?igsh=MWZibnVpOWZkcmcyNg==")
 if selected == "📥Services offered":
         st.subheader("Here are our current project abilities and services rendered out to interested parties")
