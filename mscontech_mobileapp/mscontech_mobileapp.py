@@ -38,7 +38,7 @@ if selected == "🏡Home":
             Real Estate Organizations, Environmental Management Agencies, Wildlife and Recreational Parks Conservatories as well as Civil and Structual Engineers, Town 
             Planning Engineers and all interested organizations in GIS and Remote Sensing.""")
     st.info("Explore the website more to discover more about my projects and services as well as special promotionals that I will be running.")
-    st.info("Click on the button below to access our Instagram page:")
+    st.write("Click on the button below to access our Instagram page:")
     st.link_button("Mthoe Saps Construction Technologies Instagram Page", "https://www.instagram.com/mthoe_saps_construction_tech?igsh=MWZibnVpOWZkcmcyNg==")
 if selected == "📥Services offered":
         st.subheader("Here are our current project abilities and services rendered out to interested parties")
@@ -81,7 +81,7 @@ if selected == "📥Services offered":
                           time.sleep(0.05)
                   if st.button("Preview"):
                       st.write(preview)
-                  st.text("Click the link below to get intouch the beta project director, Mthokozisi Thabiso Sapuwa")
+                  st.info("Click the link below to get intouch the beta project director, Mthokozisi Thabiso Sapuwa")
                   st.write(" [WhatsApp me now to make a booking for the exciting journey ahead >](https://wa.me/263777932721)")
            
             with tab2:
