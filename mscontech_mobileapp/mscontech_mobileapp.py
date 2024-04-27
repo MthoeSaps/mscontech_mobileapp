@@ -142,7 +142,7 @@ if selected == "📥Services offered":
                 st.image(
                          img,
                          #caption="Image obtained from the currently active Mthoe Saps Construction Technologies Bulawayo Mapping Survey Engine",
-                         width=480,
+                         width=300,
                          channels="RGB")
             with tab4:
                  st.subheader("Prototype architectural projects run by Ambitious Designs")
