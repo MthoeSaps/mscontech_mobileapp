@@ -102,35 +102,35 @@ if selected == "📥Services offered":
                        with st.container(border=True):
                             st.subheader("Beta Project Documentation")
                             st.info("Here is our official project documentation")
-                            docx_file = "mscontech_mobileapp/Bulawayo mapping Documentation/beta project documentation.docx"
+                            docx_file = "mscontech_mobileapp/Bulawayo Mapping Documentation/beta project documentation.docx"
                             raw_text = docx2txt.process(docx_file)
                             st.text(raw_text)
                   if choice == "Project Legal Documentation":
                        with st.container(border=True):
                             st.subheader("Project Legal Documentation")
                             st.info("Here is our official project legal documentation structure")
-                            docx_file = "mscontech_mobileapp/Bulawayo mapping Documentation/legal documentation .docx"
+                            docx_file = "mscontech_mobileapp/Bulawayo Mapping Documentation/legal documentation .docx"
                             raw_text = docx2txt.process(docx_file)
                             st.text(raw_text)
                   if choice == "Beta project timeline schedule":
                        with st.container(border=True):
                             st.subheader("Project timeline")
                             st.info("Here is our official project timeline schedule structure")
-                            docx_file = "mscontech_mobileapp/Bulawayo mapping Documentation/timeline schedule.docx"
+                            docx_file = "mscontech_mobileapp/Bulawayo Mapping Documentation/timeline schedule.docx"
                             raw_text = docx2txt.process(docx_file)
                             st.text(raw_text)
                   if choice == "Research Progress Documentation":
                        with st.container(border=True):
                             st.subheader("Research Proress")
                             st.info("Here is our official research progress and development report")
-                            docx_file = "mscontech_mobileapp/Bulawayo mapping Documentation/Research progress Documentation .docx"
+                            docx_file = "mscontech_mobileapp/Bulawayo Mapping Documentation/Research progress Documentation .docx"
                             raw_text = docx2txt.process(docx_file)
                             st.text(raw_text)
                   if choice == "Beta project pricing":
                        with st.container(border=True):
                             st.subheader("Pricing structure of the beta project")
                             st.info("Here is our official beta project pricing structure")
-                            docx_file = "mscontech_mobileapp/Bulawayo mapping Documentation/pricing list.docx"
+                            docx_file = "mscontech_mobileapp/Bulawayo Mapping Documentation/pricing list.docx"
                             raw_text = docx2txt.process(docx_file)
                             st.write(raw_text)   
             with tab3:
