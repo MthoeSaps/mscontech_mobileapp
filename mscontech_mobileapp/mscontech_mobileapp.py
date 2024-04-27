@@ -44,6 +44,7 @@ if selected == "📥Services offered":
         st.subheader("Here are our current project abilities and services rendered out to interested parties")
         with st.container(border=False):
             st.subheader("Software development for the Built Environment Firms", divider=True)
+            st.info("Scroll the tabs below to your left in order to access more services offered and our project documentation.") 
             tab1 , tab2, tab3, tab4 = st.tabs(["Software Development","Beta Project Documentation", "3D Drone mapping and Surveying", "Architectural Drawings"])
             with tab1:
                   st.info("In this space you can get indepth knowledge on our services and ongoing projects, navigate using the tabs above.")
