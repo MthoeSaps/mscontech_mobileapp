@@ -80,7 +80,7 @@ if selected == "📥Services offered":
                           yield word + " "
                           time.sleep(0.05)
                   if st.button("Preview"):
-                      st.text(preview)
+                      st.write(preview)
                   st.text("Click the link below to get intouch the beta project director, Mthokozisi Thabiso Sapuwa")
                   st.write(" [WhatsApp me now to make a booking for the exciting journey ahead >](https://wa.me/263777932721)")
            
@@ -106,28 +106,28 @@ if selected == "📥Services offered":
                             st.info("Here is our official project documentation")
                             docx_file = "mscontech_mobileapp/Bulawayo Mapping Documentation/beta project documentation.docx"
                             raw_text = docx2txt.process(docx_file)
-                            st.text(raw_text)
+                            st.write(raw_text)
                   if choice == "Project Legal Documentation":
                        with st.container(border=True):
                             st.subheader("Project Legal Documentation")
                             st.info("Here is our official project legal documentation structure")
                             docx_file = "mscontech_mobileapp/Bulawayo Mapping Documentation/legal documentation .docx"
                             raw_text = docx2txt.process(docx_file)
-                            st.text(raw_text)
+                            st.write(raw_text)
                   if choice == "Beta project timeline schedule":
                        with st.container(border=True):
                             st.subheader("Project timeline")
                             st.info("Here is our official project timeline schedule structure")
                             docx_file = "mscontech_mobileapp/Bulawayo Mapping Documentation/timeline schedule.docx"
                             raw_text = docx2txt.process(docx_file)
-                            st.text(raw_text)
+                            st.write(raw_text)
                   if choice == "Research Progress Documentation":
                        with st.container(border=True):
                             st.subheader("Research Proress")
                             st.info("Here is our official research progress and development report")
                             docx_file = "mscontech_mobileapp/Bulawayo Mapping Documentation/Research progress Documentation .docx"
                             raw_text = docx2txt.process(docx_file)
-                            st.text(raw_text)
+                            st.write(raw_text)
                   if choice == "Beta project pricing":
                        with st.container(border=True):
                             st.subheader("Pricing structure of the beta project")
