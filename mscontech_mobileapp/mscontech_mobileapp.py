@@ -30,7 +30,7 @@ with st.sidebar:
 if selected == "🏡Home":
     with st.container(border=False):
                    img = Image.open("mscontech_mobileapp/images and videos/Blue Orange Vintage and Retro Construction Badge Logo_20240401_174631_0000.png")
-                   st.image(img, width=310, caption="Mthoe Saps Construction Technologies Trademark logo")
+                   st.image(img, width=280, caption="Mthoe Saps Construction Technologies Trademark logo")
     st.subheader("Welcome, to the official Mthoe Saps Construction Technologies Online Platform")
     st.info("""This is my official Online Platform for my GIS, Remote Sensing and Architectural Design platform where I will be posting updates about 
             my projects that are under the Built Environment. I am supplying consultancy services as well as software engineering services for all
