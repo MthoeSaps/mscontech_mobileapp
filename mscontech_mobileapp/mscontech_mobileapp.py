@@ -55,7 +55,7 @@ if selected == "📥Services offered":
                         width=280,
                         channels="RGB")
                   st.subheader("Beta Project of Bulawayo Mapping and Survey Software", divider=True)
-                  st.text("Click on the Preview Button to get information about this project")
+                  st.info("Click on the Preview Button to get information about this project")
                   company_status = """
                   This is a Geospatial Data web app that uses geospatial data, global positioning systems (GPS), 
                   satellites and satellite imagery as well as custom based research databases in order to properly 
@@ -80,7 +80,7 @@ if selected == "📥Services offered":
                           yield word + " "
                           time.sleep(0.05)
                   if st.button("Preview"):
-                      st.write(preview)
+                      st.text(preview)
                   st.text("Click the link below to get intouch the beta project director, Mthokozisi Thabiso Sapuwa")
                   st.write(" [WhatsApp me now to make a booking for the exciting journey ahead >](https://wa.me/263777932721)")
            
@@ -99,7 +99,7 @@ if selected == "📥Services offered":
                             st.info("Here is our official documentation to our beta programme")
                             docx_file = "mscontech_mobileapp/Bulawayo Mapping Documentation/beta project invitation letter.docx"
                             raw_text = docx2txt.process(docx_file)
-                            st.text(raw_text)
+                            st.write(raw_text)
                   if choice == "Beta Project Documentation":
                        with st.container(border=True):
                             st.subheader("Beta Project Documentation")
