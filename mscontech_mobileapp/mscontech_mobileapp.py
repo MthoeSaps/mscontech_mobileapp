@@ -169,35 +169,35 @@ if selected == "👨‍💼Affiliated Partners":
     st.image(
               img,
                 caption="Affiliated companies caption to be posted here",
-                width=200,
+                width=280,
                 channels="RGB")
     st.write(" [Contact Ambitious Designs > ](https://wa.me/263715313827)")
     img=Image.open("mscontech_mobileapp/images and videos/b99da924bb802ae7db7628d507c8585c.jpg")
     st.image(
               img,
                 caption="Affiliated companies caption to be posted here",
-                width=200,
+                width=280,
                 channels="RGB")
     st.write(" [Contact Ambitious Designs > ](https://wa.me/263715313827)")
     img=Image.open("mscontech_mobileapp/images and videos/b99da924bb802ae7db7628d507c8585c.jpg")
     st.image(
               img,
                 caption="Affiliated companies caption to be posted here",
-                width=200,
+                width=280,
                 channels="RGB")
     st.write(" [Contact Ambitious Designs > ](https://wa.me/263715313827)")
     img=Image.open("mscontech_mobileapp/images and videos/b99da924bb802ae7db7628d507c8585c.jpg")
     st.image(
               img,
                 caption="Affiliated companies caption to be posted here",
-                width=200,
+                width=280,
                 channels="RGB")
     st.write(" [Contact Ambitious Designs > ](https://wa.me/263715313827)")
     img=Image.open("mscontech_mobileapp/images and videos/b99da924bb802ae7db7628d507c8585c.jpg")
     st.image(
               img,
                 caption="Affiliated companies caption to be posted here",
-                width=200,
+                width=280,
                 channels="RGB")
     st.write(" [Contact Ambitious Designs > ](https://wa.me/263715313827)")
 
