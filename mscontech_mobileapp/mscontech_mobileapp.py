@@ -51,7 +51,7 @@ if selected == "📥Services offered":
                   st.image(
                         img,
                         caption="Image obtained from the currently active Mthoe Saps Construction Technologies Bulawayo Mapping Survey Engine",
-                        width=480,
+                        width=280,
                         channels="RGB")
                   st.subheader("Beta Project of Bulawayo Mapping and Survey Software", divider=True)
                   st.text("Click on the Preview Button to get information about this project")
@@ -142,7 +142,7 @@ if selected == "📥Services offered":
                 st.image(
                          img,
                          #caption="Image obtained from the currently active Mthoe Saps Construction Technologies Bulawayo Mapping Survey Engine",
-                         width=300,
+                         width=280,
                          channels="RGB")
             with tab4:
                  st.subheader("Prototype architectural projects run by Ambitious Designs")
@@ -154,7 +154,7 @@ if selected == "📥Services offered":
                  st.image(
                       img,
                       caption="This is a subsidory firm that deals with Architectural Drawings & Designs for your concenience",
-                      width=440,
+                      width=280,
                       channels="RGB")
 
 if selected == "🔧Project Updates & Upgrades":
