@@ -17,7 +17,7 @@ st.set_page_config(page_title="MthoeSaps Construction Technologies", page_icon="
 
 
 st.title("Mthoe Saps Construction Technologies 🗺")
-st.text("PC & Mobile compartible")
+st.text("Mobile App")
 st.divider()
 
 with st.sidebar:
