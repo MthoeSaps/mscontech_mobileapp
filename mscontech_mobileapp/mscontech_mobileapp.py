@@ -253,6 +253,7 @@ if selected == "☎Contact me here":
     st.subheader("Use the buttons below to get in touch with me", divider=True )
     st.link_button("Contact me on WhatsApp", "https://wa.me/263777932721") 
     st.link_button("Email me here", "https://mthoesaps06@gmail.com") 
+    st.text("Email me @mthoesaps06@gmail.com")
     st.link_button("View my LinkedIn Profile", "https://www.linkedin.com/in/mthokozisi-sapuwa-1ab2151ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app") 
     st.link_button("Find me on Instagram", "https://www.instagram.com/mthoe.zw?utm_source=qr&igsh=MTlrZWlvdW1pNGI4bA")
     st.link_button("Check me out Facebook", "https://www.facebook.com/mthokozisi.sapuwa.50?mibextid=kFxxJD")
