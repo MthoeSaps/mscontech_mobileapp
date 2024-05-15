@@ -21,6 +21,9 @@ st.text("PC & Mobile compartible")
 st.divider()
 
 with st.sidebar:
+    with st.container(border=False):
+                   img = Image.open("mscontech_mobileapp/images and videos/Blue Orange Vintage and Retro Construction Badge Logo_20240401_174631_0000.png")
+                   st.image(img, width=280, caption="Mthoe Saps Construction Technologies Trademark logo")
     selected = option_menu(
     menu_title = "Main Menu",
     options = ["🏡Home","📥Services offered","🔧Project Updates & Upgrades","👨‍💼Affiliated Partners","☎Contact me here"],
@@ -29,9 +32,6 @@ with st.sidebar:
     )
     
 if selected == "🏡Home":
-    with st.container(border=False):
-                   img = Image.open("mscontech_mobileapp/images and videos/Blue Orange Vintage and Retro Construction Badge Logo_20240401_174631_0000.png")
-                   st.image(img, width=280, caption="Mthoe Saps Construction Technologies Trademark logo")
     st.subheader("Welcome, to the official Mthoe Saps Construction Technologies Online Platform")
     st.info("""This the official Online Platform for my GIS, Remote Sensing and Architectural Design platform where I will be updating about 
             available projects that are under the Built Environment. """)
