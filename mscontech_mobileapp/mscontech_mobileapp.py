@@ -16,7 +16,7 @@ from PIL import Image
 st.set_page_config(page_title="MthoeSaps Construction Technologies", page_icon=":🗺:", layout="centered", initial_sidebar_state="expanded")
 
 
-st.title("Mthoe Saps Construction Technologies")
+st.title("Mthoe Saps Construction Technologies 🗺")
 st.text("PC & Mobile compartible")
 st.divider()
 
