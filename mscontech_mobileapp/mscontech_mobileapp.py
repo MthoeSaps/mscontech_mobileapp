@@ -32,12 +32,10 @@ if selected == "🏡Home":
                    img = Image.open("mscontech_mobileapp/images and videos/Blue Orange Vintage and Retro Construction Badge Logo_20240401_174631_0000.png")
                    st.image(img, width=280, caption="Mthoe Saps Construction Technologies Trademark logo")
     st.subheader("Welcome, to the official Mthoe Saps Construction Technologies Online Platform")
-    st.info("""This is my official Online Platform for my GIS, Remote Sensing and Architectural Design platform where I will be posting updates about 
-            my projects that are under the Built Environment. I am supplying consultancy services as well as software engineering services for all
-            problems that are related to the Built Environment Field. I am currently running a Bulawayo Mapping & Surveying beta programme for all Land Development Companies,
-            Real Estate Organizations, Environmental Management Agencies, Wildlife and Recreational Parks Conservatories as well as Civil and Structual Engineers, Town 
-            Planning Engineers and all interested organizations in GIS and Remote Sensing.""")
-    st.info("Explore the website more to discover more about my projects and services as well as special promotionals that I will be running.")
+    st.info("""This the official Online Platform for my GIS, Remote Sensing and Architectural Design platform where I will be updating about 
+            available projects that are under the Built Environment. """)
+    st.info("We have a New Mapping software suite package available called Terra Vista, contact us to purchsae your software licence today.")
+    st.info("Beta Project up and running, signup for our exclusive beta project and get first hand access to all our new software technology.")
     st.write("Click on the button below to access our Instagram page:")
     st.link_button("Mthoe Saps Construction Technologies Instagram Page", "https://www.instagram.com/mthoe_saps_construction_tech?igsh=MWZibnVpOWZkcmcyNg==")
 if selected == "📥Services offered":
