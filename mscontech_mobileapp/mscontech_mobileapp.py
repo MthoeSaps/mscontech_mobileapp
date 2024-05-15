@@ -30,6 +30,20 @@ with st.sidebar:
     menu_icon = None,
     default_index = 0,
     )
+    st.subheader("Stocks Available")
+    st.write("We have stock shares for sale for our projects. Contact us now to secure your investment.")
+    st.write("Click on the link below to visit our Stock Exchange Board")
+    st.write("[Visit Stock Dashboard >](https://www.example.com)")
+    df = pd.read_excel("C:/Users/Mthoko/source/repos/mscontech_mobileapp/tv/project costs kpis 20240510_173153.xlsx")
+    #st.write(df)
+    st.info("Pie Chart Stocks Display. Expand the sidebar and interact with the data to view our current investment opportunities.")
+    chart2 = px.sunburst(
+        df,
+        path=["Project Name ", "Project Value (USD)"],
+        values="Max Number of Investors",
+        color="Share Percentage Available (%)"
+         )
+    st.plotly_chart(chart2)
     
 if selected == "🏡Home":
     st.subheader("Welcome, to the official Mthoe Saps Construction Technologies Online Platform")
