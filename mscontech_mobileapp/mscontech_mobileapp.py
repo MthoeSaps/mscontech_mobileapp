@@ -249,7 +249,7 @@ if selected == "👨‍💼Affiliated Partners":
     st.write(" [Contact Affiliate Company > ](https://wa.me/263715313827)")
 
 if selected == "☎Contact me here":
-    st.info("Use the buttons below to contact the project Developer, Mthokozisi Thabiso Sapuwa in order to get your beta project signup documentation form ")
+    #st.info("Use the buttons below to contact the project Developer, Mthokozisi Thabiso Sapuwa in order to get your beta project signup documentation form ")
     st.subheader("Use the buttons below to get in touch with me", divider=True )
     st.link_button("Contact me on WhatsApp", "https://wa.me/263777932721") 
     st.link_button("Email me here", "https://mthoesaps06@gmail.com") 
