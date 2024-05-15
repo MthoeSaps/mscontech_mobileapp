@@ -195,7 +195,7 @@ if selected == "🆕New Software":
                        raw_text = docx2txt.process(docx_file)
                        st.write(raw_text)
     if choice == "Terra Vista Installation and User Guideline":
-    with st.container(border=True):
+        with st.container(border=True):
                        st.subheader("Terra Vista Installation and User Guideline")
                        st.text("Here is our official Terra Vista Installation and User Guideline ")
                        docx_file = "mscontech_mobileapp/tv/Terra Vista installation and user guideline with imgs.docx"
