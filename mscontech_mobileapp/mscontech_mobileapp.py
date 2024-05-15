@@ -86,9 +86,9 @@ if selected == "📥Services offered":
             with tab2:
                   with st.container(border=True):
                         st.subheader("Beta Project Documentation", divider=True)
-                        st.write("Get a better understanding of our beta project by reading through our invitational letter and going through our complete project documentation to gain a better understanding of our project.")
+                        #st.write("Get a better understanding of our beta project by reading through our invitational letter and going through our complete project documentation to gain a better understanding of our project.")
                         st.info("Scroll inside the containers to view project documentation much more clearer")
-                        st.write("NB: Once you apply are ready to apply for the beta project, contact the developer using any of the buttons on the contact me page to receiver your sign up form bundle.")
+                        #st.write("NB: Once you apply are ready to apply for the beta project, contact the developer using any of the buttons on the contact me page to receiver your sign up form bundle.")
                         st.info("Use the select box below to navigate through the documentation")
                   Documentation = ["Beta Project Invitation", "Beta Project Documentation", "Project Legal Documentation", "Beta project timeline schedule", "Research Progress Documentation", "Beta project pricing"]
                   choice = st.selectbox("Menu", Documentation)
