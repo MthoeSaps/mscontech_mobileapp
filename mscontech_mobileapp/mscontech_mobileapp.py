@@ -26,7 +26,7 @@ with st.sidebar:
                    st.image(img, width=280, caption="Mthoe Saps Construction Technologies Trademark logo")
     selected = option_menu(
     menu_title = "Main Menu",
-    options = ["🏡Home","📥Services offered","🔧Project Updates & Upgrades","👨‍💼Affiliated Partners","☎Contact me here"],
+    options = ["🏡Home","📥Services offered","🆕New Software","👨‍💼Affiliated Partners","☎Contact me here"],
     menu_icon = None,
     default_index = 0,
     )
@@ -174,10 +174,40 @@ if selected == "📥Services offered":
                       width=280,
                       channels="RGB")
 
-if selected == "🔧Project Updates & Upgrades":
-     st.subheader("Stay up to date with my project dashboard")
-     st.info("Regularly check on this page in order to get a close preview of our upcoming projects and software updates 😉") 
-      
+if selected == "🆕New Software":
+    st.subheader("We are pleased to notfy you that we have developed another software for mapping and surveying!")
+    st.write("The software name is called Terra Vista")
+    st.text("Use select box below to read through Terra Vista Documentation")
+    view = ["Terra Vista Doumentation", "Terra Vista Legal Documentation", "Terra Vista Installation and User Guideline", "Terra Vista Licencing Contract"]
+    choice = st.selectbox("Menu", view)
+    if choice == "Terra Vista Doumentation":
+        with st.container(border=True):
+                 st.subheader("Terra Vista Doumentation")
+                 st.text("Here is our official documentation for Terra Vista")
+                 docx_file = "mscontech_mobileapp/tv/Terra Vista full documentation with imgs.docx"
+                 raw_text = docx2txt.process(docx_file)
+                 st.write(raw_text)
+    if choice == "Terra Vista Legal Documentation":
+      with st.container(border=True):
+                       st.subheader("Terra Vista Legal Doumentation")
+                       st.text("Here is our official Terra Vista Legal documentation ")
+                       docx_file = "mscontech_mobileapp/tv/Terra Vista legal documentation updated.docx"
+                       raw_text = docx2txt.process(docx_file)
+                       st.write(raw_text)
+    if choice == "Terra Vista Installation and User Guideline":
+    with st.container(border=True):
+                       st.subheader("Terra Vista Installation and User Guideline")
+                       st.text("Here is our official Terra Vista Installation and User Guideline ")
+                       docx_file = "mscontech_mobileapp/tv/Terra Vista installation and user guideline with imgs.docx"
+                       raw_text = docx2txt.process(docx_file)
+                       st.write(raw_text)  
+if choice == "Terra Vista Licencing Contract":
+    with st.container(border=True):
+                       st.subheader("Terra Vista Licencing Contract")
+                       st.text("Here is our official Terra Vista Licencing Contract")
+                       docx_file = "mscontech_mobileapp/tv/Terra Vista licencing contract .docx"
+                       raw_text = docx2txt.process(docx_file)
+                       st.write(raw_text)
 if selected == "👨‍💼Affiliated Partners":
     st.subheader("Here is a comprehensive list of our beta project affiliated partners")
     #st.info("Use this page to view of partners organizational description and use the contact links below to get in contact with them.")
