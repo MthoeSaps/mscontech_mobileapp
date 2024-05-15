@@ -35,6 +35,7 @@ if selected == "🏡Home":
     st.subheader("Welcome, to the official Mthoe Saps Construction Technologies Online Platform")
     st.info("""This the official Online Platform for my GIS, Remote Sensing and Architectural Design platform where I will be updating about 
             available projects that are under the Built Environment. """)
+    st.write("We have unveiled 13.44% shares for sale for our startup project, visit the sidebar for more information")
     st.info("We have a New Mapping software suite package available called Terra Vista, contact us to purchsae your software licence today.")
     st.info("Beta Project up and running, signup for our exclusive beta project and get first hand access to all our new software technology.")
     st.write("Click on the button below to access our Instagram page:")
