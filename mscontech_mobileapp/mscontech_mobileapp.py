@@ -40,7 +40,7 @@ if selected == "🏡Home":
     st.write("Click on the button below to access our Instagram page:")
     st.link_button("Mthoe Saps Construction Technologies Instagram Page", "https://www.instagram.com/mthoe_saps_construction_tech?igsh=MWZibnVpOWZkcmcyNg==")
 if selected == "📥Services offered":
-        st.subheader("Here are our current project abilities and services rendered out to interested parties")
+        #st.subheader("Here are our current project abilities and services rendered out to interested parties")
         with st.container(border=False):
             st.subheader("Software development for the Built Environment Firms", divider=True)
             st.info("Scroll the tabs below to your left in order to access more services offered and our project documentation.") 
