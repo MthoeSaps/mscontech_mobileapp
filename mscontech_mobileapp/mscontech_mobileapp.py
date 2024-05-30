@@ -178,7 +178,7 @@ if selected == "📥Services offered":
 if selected == "🆕New Software":
     st.subheader("We are pleased to notfy you that we have developed another software for mapping and surveying!")
     st.write("Software will be ready to hit the real world makrte in the coming few weeks. The future of GIS and BIM is here.")
-    st.info("More information to be provided soon!")
+    st.info("More information to be provided soon!"
     
     
     #st.write("The software name is called Terra Vista")
