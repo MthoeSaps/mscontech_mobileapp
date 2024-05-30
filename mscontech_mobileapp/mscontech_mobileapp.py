@@ -48,7 +48,7 @@ if selected == "🏡Home":
             #available projects that are under the Built Environment. """)
     with st.container(border=True):
                    img = Image.open("mscontech_mobileapp/images and videos/Purple Blue Illustration Future and Technology Poster_20240528_101117_0000.jpg")
-                   st.image(img, width=280, caption="Mthoe Saps Construction Technologies Trademark logo")
+                   st.image(img, width=250, caption="Mthoe Saps Construction Technologies Services offered")
     #with st.container(border=True):
         #st.write("We have unveiled 13.44% shares for sale for our startup project, visit the sidebar for more information")
     #st.info("We have a New Mapping software suite package available called Terra Vista, contact us to purchsae your software licence today.")
