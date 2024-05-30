@@ -104,7 +104,7 @@ if selected == "📥Services offered":
                   with st.container(border=True):
                         st.subheader("Beta Project Documentation", divider=True)
                         #st.write("Get a better understanding of our beta project by reading through our invitational letter and going through our complete project documentation to gain a better understanding of our project.")
-                        st.info("Scroll inside the containers to view project documentation much more clearer")
+                        #st.info("Scroll inside the containers to view project documentation much more clearer")
                         #st.write("NB: Once you apply are ready to apply for the beta project, contact the developer using any of the buttons on the contact me page to receiver your sign up form bundle.")
                         st.info("Use the select box below to navigate through the documentation")
                   Documentation = ["Beta Project Invitation", "Beta Project Documentation", "Project Legal Documentation", "Beta project timeline schedule", "Research Progress Documentation", "Beta project pricing"]
@@ -177,38 +177,42 @@ if selected == "📥Services offered":
 
 if selected == "🆕New Software":
     st.subheader("We are pleased to notfy you that we have developed another software for mapping and surveying!")
-    st.write("The software name is called Terra Vista")
-    st.text("Use select box below to read through Terra Vista Documentation")
-    open = ["Terra Vista Doumentation", "Terra Vista Legal Documentation", "Terra Vista Installation and User Guideline", "Terra Vista Licencing Contract"]
-    option = st.selectbox("Menu", open)
-    if option == "Terra Vista Doumentation":
-        with st.container(border=True):
-                 st.subheader("Terra Vista Doumentation")
-                 st.text("Here is our official documentation for Terra Vista")
-                 docx_file = "mscontech_mobileapp/tv/Terra Vista full documentation with imgs.docx"
-                 raw_text = docx2txt.process(docx_file)
-                 st.write(raw_text)
-    if option == "Terra Vista Legal Documentation":
-      with st.container(border=True):
-                       st.subheader("Terra Vista Legal Doumentation")
-                       st.text("Here is our official Terra Vista Legal documentation ")
-                       docx_file = "mscontech_mobileapp/tv/Terra Vista legal documentation updated.docx"
-                       raw_text = docx2txt.process(docx_file)
-                       st.write(raw_text)
-    if option == "Terra Vista Installation and User Guideline":
-        with st.container(border=True):
-                       st.subheader("Terra Vista Installation and User Guideline")
-                       st.text("Here is our official Terra Vista Installation and User Guideline ")
-                       docx_file = "mscontech_mobileapp/tv/Terra Vista installation and user guideline with imgs.docx"
-                       raw_text = docx2txt.process(docx_file)
-                       st.write(raw_text)  
-    if option == "Terra Vista Licencing Contract":
-        with st.container(border=True):
-                       st.subheader("Terra Vista Licencing Contract")
-                       st.text("Here is our official Terra Vista Licencing Contract")
-                       docx_file = "mscontech_mobileapp/tv/Terra Vista licencing contract .docx"
-                       raw_text = docx2txt.process(docx_file)
-                       st.write(raw_text)
+    st.write("Software will be ready to hit the real world makrte in the coming few weeks. The future of GIS and BIM is here.")
+    st.info("More information to be provided soon!")
+    
+    
+    #st.write("The software name is called Terra Vista")
+    #st.text("Use select box below to read through Terra Vista Documentation")
+    #open = ["Terra Vista Doumentation", "Terra Vista Legal Documentation", "Terra Vista Installation and User Guideline", "Terra Vista Licencing Contract"]
+    #option = st.selectbox("Menu", open)
+    #if option == "Terra Vista Doumentation":
+        #with st.container(border=True):
+               #  st.subheader("Terra Vista Doumentation")
+               #  st.text("Here is our official documentation for Terra Vista")
+               #  docx_file = "mscontech_mobileapp/tv/Terra Vista full documentation with imgs.docx"
+               #  raw_text = docx2txt.process(docx_file)
+              #   st.write(raw_text)
+    #if option == "Terra Vista Legal Documentation":
+      #with st.container(border=True):
+        #               st.subheader("Terra Vista Legal Doumentation")
+       #                st.text("Here is our official Terra Vista Legal documentation ")
+      #                 docx_file = "mscontech_mobileapp/tv/Terra Vista legal documentation updated.docx"
+     #                  raw_text = docx2txt.process(docx_file)
+    #                   st.write(raw_text)
+   # if option == "Terra Vista Installation and User Guideline":
+        #with st.container(border=True):
+         #              st.subheader("Terra Vista Installation and User Guideline")
+        #               st.text("Here is our official Terra Vista Installation and User Guideline ")
+       #                docx_file = "mscontech_mobileapp/tv/Terra Vista installation and user guideline with imgs.docx"
+      #                 raw_text = docx2txt.process(docx_file)
+     #                  st.write(raw_text)  
+    #if option == "Terra Vista Licencing Contract":
+       # with st.container(border=True):
+         #              st.subheader("Terra Vista Licencing Contract")
+        #               st.text("Here is our official Terra Vista Licencing Contract")
+       #                docx_file = "mscontech_mobileapp/tv/Terra Vista licencing contract .docx"
+      #                 raw_text = docx2txt.process(docx_file)
+     #                  st.write(raw_text)
 if selected == "👨‍💼Affiliated Partners":
     st.subheader("Here is a comprehensive list of our beta project affiliated partners")
     #st.info("Use this page to view of partners organizational description and use the contact links below to get in contact with them.")
