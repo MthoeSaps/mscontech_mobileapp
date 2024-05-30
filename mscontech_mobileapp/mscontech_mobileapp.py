@@ -21,9 +21,6 @@ st.text("Mobile App")
 st.divider()
 
 with st.sidebar:
-    with st.container(border=False):
-                   img = Image.open("mscontech_mobileapp/images and videos/Purple Blue Illustration Future and Technology Poster_20240528_101117_0000.jpg")
-                   st.image(img, width=280, caption="Mthoe Saps Construction Technologies Trademark logo")
     selected = option_menu(
     menu_title = "Main Menu",
     options = ["🏡Home","📥Services offered","🆕New Software","👨‍💼Affiliated Partners","☎Contact me here"],
@@ -49,10 +46,13 @@ if selected == "🏡Home":
     st.subheader("Welcome, to the official Mthoe Saps Construction Technologies Online Platform")
     st.info("""This the official Online Platform for my GIS, Remote Sensing and Architectural Design platform where I will be updating about 
             available projects that are under the Built Environment. """)
-    with st.container(border=True):
-        st.write("We have unveiled 13.44% shares for sale for our startup project, visit the sidebar for more information")
-    st.info("We have a New Mapping software suite package available called Terra Vista, contact us to purchsae your software licence today.")
-    st.info("Beta Project up and running, signup for our exclusive beta project and get first hand access to all our new software technology.")
+    with st.container(border=False):
+                   img = Image.open("mscontech_mobileapp/images and videos/Purple Blue Illustration Future and Technology Poster_20240528_101117_0000.jpg")
+                   st.image(img, width=280, caption="Mthoe Saps Construction Technologies Trademark logo")
+    #with st.container(border=True):
+        #st.write("We have unveiled 13.44% shares for sale for our startup project, visit the sidebar for more information")
+    #st.info("We have a New Mapping software suite package available called Terra Vista, contact us to purchsae your software licence today.")
+    #st.info("Beta Project up and running, signup for our exclusive beta project and get first hand access to all our new software technology.")
     st.write("Click on the button below to access our Instagram page:")
     st.link_button("Mthoe Saps Construction Technologies Instagram Page", "https://www.instagram.com/mthoe_saps_construction_tech?igsh=MWZibnVpOWZkcmcyNg==")
 if selected == "📥Services offered":
