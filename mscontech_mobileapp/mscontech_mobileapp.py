@@ -22,7 +22,7 @@ st.divider()
 
 with st.sidebar:
     with st.container(border=False):
-                   img = Image.open("mscontech_mobileapp/images and videos/Blue Orange Vintage and Retro Construction Badge Logo_20240401_174631_0000.png")
+                   img = Image.open("mscontech_mobileapp/images and videos/Purple Blue Illustration Future and Technology Poster_20240528_101117_0000.jpg")
                    st.image(img, width=280, caption="Mthoe Saps Construction Technologies Trademark logo")
     selected = option_menu(
     menu_title = "Main Menu",
