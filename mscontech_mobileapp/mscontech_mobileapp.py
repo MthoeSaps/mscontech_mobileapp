@@ -45,7 +45,7 @@ with st.sidebar:
 if selected == "🏡Home":
     st.subheader("Welcome, to the official Mthoe Saps Construction Technologies Online Platform")
     #st.info("""This the official Online Platform for my GIS, Remote Sensing and Architectural Design platform where I will be updating about 
-            available projects that are under the Built Environment. """)
+            #available projects that are under the Built Environment. """)
     with st.container(border=True):
                    img = Image.open("mscontech_mobileapp/images and videos/Purple Blue Illustration Future and Technology Poster_20240528_101117_0000.jpg")
                    st.image(img, width=280, caption="Mthoe Saps Construction Technologies Trademark logo")
