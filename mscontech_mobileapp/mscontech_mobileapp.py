@@ -43,7 +43,8 @@ with st.sidebar:
     st.plotly_chart(chart2)
     
 if selected == "🏡Home":
-    st.subheader("Welcome, to the official Mthoe Saps Construction Technologies Online Platform")
+    with st.container(border=True):
+        st.write("Welcome, to the official Mthoe Saps Construction Technologies Online Platform")
     #st.info("""This the official Online Platform for my GIS, Remote Sensing and Architectural Design platform where I will be updating about 
             #available projects that are under the Built Environment. """)
     with st.container(border=True):
